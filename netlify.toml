@@ -1,0 +1,7 @@
+[build]
+  base = "/"
+  command = "env SITEURL=$DEPLOY_PRIME_URL make html"
+  publish = "output"
+
+[context.production]
+  command = "env SITEURL=$URL make html"

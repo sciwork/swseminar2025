@@ -12,7 +12,6 @@ const Page = () => {
   return (
     <Article>
       <h1>Program</h1>
-      {
       <TaskInfoList>
         <ScheduleTime time="09:30" />
         <TalkInfoCard
@@ -55,6 +54,7 @@ const Page = () => {
           </TaskInfoList>
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
             <TalkInfoCard
+			 className="tw-h-full"
               talk={{
                 title: "Understanding Kubernetes Networking: A Dive into Network Namespaces and iptables",
                 description: "In this talk, we’ll take a journey through the foundations of how Kubernetes handles networking. We'll focus on two critical building blocks: Linux network namespaces and iptables. By exploring how Kubernetes configures these tools under the hood, we’ll demystify how traffic flows from the outside world to your Pods.",
@@ -71,6 +71,7 @@ const Page = () => {
         <div className="tw-grid tw-grid-cols-1 tw-gap-6 tablet:tw-grid-cols-2">
           <TaskInfoList className="tw-order-1 tablet:tw-order-1">
             <TalkInfoCard
+			  className="tw-h-full"
               talk={{
                 title: "A deep dive into BEVFormer",
                 description: "",
@@ -84,6 +85,7 @@ const Page = () => {
           </TaskInfoList>
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
             <TalkInfoCard
+			  className="tw-h-full"
               talk={{
                 title:
                   "在系上管理運算資源的那檔事",
@@ -101,6 +103,7 @@ const Page = () => {
         <div className="tw-grid tw-grid-cols-1 tw-gap-6 tablet:tw-grid-cols-2">
           <TaskInfoList className="tw-order-1 tablet:tw-order-1">
             <TalkInfoCard
+			  className="tw-h-full"
               talk={{
                 title: "建構一套 LLM 輔助之符號代數運算系統",
                 description:"儘管大型語言模型(LLM)的持續進步，數學能力逐漸加強，在碰到新穎且需要邏輯推演的問題，LLM仍表現的不可靠。在本計畫中，我們嘗試一個新的途徑，讓 LLM 以「操作外部工具」的方式來使用代數運算系統(computer algebra system, CAS)。",
@@ -114,6 +117,7 @@ const Page = () => {
           </TaskInfoList>
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
             <TalkInfoCard
+			  className="tw-h-full"
               talk={{
                 title:
                   "測資保護戰：探討專案型 Online Judge 之資安問題",
@@ -230,7 +234,6 @@ const Page = () => {
           variant="general"
         />
       </TaskInfoList>
-      }
     </Article>
   );
 };

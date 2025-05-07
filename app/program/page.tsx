@@ -74,7 +74,7 @@ const Page = () => {
 			  className="tw-h-full"
               talk={{
                 title: "A deep dive into BEVFormer",
-                description: "",
+                description: "BEVFormer is a transformer-based architecture for 3D object detection and multi-view perception. It projects multi-camera images into a bird’s-eye view (BEV) space and applies spatial and temporal attention to model the scene across time and viewpoints. This enables accurate and efficient object detection without relying on LiDAR data. In this talk, we will explore the core ideas behind BEVFormer, including its BEV representation, attention mechanisms, and how it integrates multi-camera inputs over time. ",
                 room: "R122",
                 persons: ["Alex Chiang"],
                 start: "11:00",
@@ -121,7 +121,7 @@ const Page = () => {
               talk={{
                 title:
                   "測資保護戰：探討專案型 Online Judge 之資安問題",
-                description: "",
+                description: "為解決大量學生作業評測及讓學生能多次提交直到通過的需求，設計了自動化評測系統。系統架構採用 Jenkins 平台串連 Gitea，學生透過 git 提交作業觸發 Jenkins 自動評測並可查看 Terminal 輸出以診斷問題。此架構成功支援兩年課程評測，但隨之產生資安挑戰。學生曾利用程式執行權限探索 workspace 資料夾，將暗測測資輸出到 Terminal。面對此威脅，團隊實施 SSH remote worker 隔離服務，並開發「Sylinteri」工具將測試結果轉為 JSON 格式呈現，取代直接顯示 stdout 內容。最終引入 sandbox 機制，徹底解決測資被篡改或透過網路外洩的風險。",
                 room: "R115",
                 persons: ["Han-Xuan Huang"],
                 start: "11:40",

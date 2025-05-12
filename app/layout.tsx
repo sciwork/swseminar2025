@@ -39,7 +39,7 @@ export async function generateMetadata() {
       siteName: "sciwork seminar 2025",
       images: [
         {
-          url: "/sw25_meta_img.png",
+          url: "/og_image.png",
           width: 1024,
           height: 1024,
         },
@@ -51,7 +51,7 @@ export async function generateMetadata() {
       card: "summary_large_image",
       title: "sciwork seminar 2025",
       description: "science, code, and open source.",
-      images: ["/sw25_meta_img.jpg"],
+      images: ["/og_image.png"],
     },
     icons: {
       icon: [

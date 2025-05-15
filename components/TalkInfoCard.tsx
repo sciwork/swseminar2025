@@ -1,10 +1,15 @@
 import clsx from "clsx";
 
+type SpeakerType = {
+  name: string;
+  website?: string;
+};
+
 type SimpleTalkType = {
   title: string;
   description: string;
   room?: string;
-  persons?: string[];
+  speakers?: SpeakerType[];
   start: string;
   end: string;
 };
@@ -62,7 +67,22 @@ const TalkInfoCard = ({ className, variant, talk, ...props }: Props) => {
           variant === "room2" && "tw-text-sky-600",
         )}
       >
-        {talk?.persons?.map((person) => person).join(", ")}
+        {talk?.speakers?.map((speaker, index) => (
+          <span key={index}>
+            {index > 0 && ", "}
+            {speaker.website ? (
+              <a
+                href={speaker.website}
+                className="tw-underline"
+                target="_blank"
+              >
+                {speaker.name}
+              </a>
+            ) : (
+              speaker.name
+            )}
+          </span>
+        ))}
       </div>
       <div
         className={clsx(

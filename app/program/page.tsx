@@ -170,7 +170,7 @@ const Page = () => {
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
 			<TalkInfoCard
           	  talk={{
-          	    title: "Coding sprint: pydoc-tw",
+          	    title: "Coding sprint: pydoc-tw, utensor",
           	    description: "",
           	    room: "R115",
           	    start: "13:30",
@@ -208,7 +208,7 @@ const Page = () => {
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
 			<TalkInfoCard
           	  talk={{
-          	    title: "Coding sprint: pydoc-tw",
+          	    title: "Coding sprint: pydoc-tw, utensor",
           	    description: "",
           	    room: "R115",
           	    start: "15:40",

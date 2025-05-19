@@ -45,7 +45,7 @@ const Page = () => {
                 title: "C++ template meta-programming: crafting a SIMD library",
                 description: "To accelerate element-wise calculation in arrays, we applied SIMD to parallelize array manipulation while developing numeric analysis program. However, SIMD intrinsic library contains lots of similar functions for different data types. We applied meta-programming to reduce duplicated codes cause by those similar functions in order to keep the maintainability. In this talk we will share our journey on meta-programming for SIMD from function-like C-style macro to C++ template programming and some template tips such as type matching, SFINAE.",
                 room: "R122",
-                speakers: [{name: "Kuan-Hsien Lee"}],
+                speakers: [{name: "Kuan-Hsien Lee", website: "https://github.com/KHLee529"}],
                 start: "10:20",
                 end: "10:50",
               }}
@@ -76,7 +76,7 @@ const Page = () => {
                 title: "A deep dive into BEVFormer",
                 description: "BEVFormer is a transformer-based architecture for 3D object detection and multi-view perception. It projects multi-camera images into a bird’s-eye view (BEV) space and applies spatial and temporal attention to model the scene across time and viewpoints. This enables accurate and efficient object detection without relying on LiDAR data. In this talk, we will explore the core ideas behind BEVFormer, including its BEV representation, attention mechanisms, and how it integrates multi-camera inputs over time. ",
                 room: "R122",
-                speakers: [{name: "Alex Chiang"}],
+                speakers: [{name: "Alex Chiang", website: "https://github.com/jysh1214"}],
                 start: "11:00",
                 end: "11:30",
               }}
@@ -108,7 +108,7 @@ const Page = () => {
                 title: "建構一套 LLM 輔助之符號代數運算系統",
                 description:"儘管大型語言模型(LLM)的持續進步，數學能力逐漸加強，在碰到新穎且需要邏輯推演的問題，LLM 仍表現的不可靠。在本計畫中，我們嘗試一個新的途徑，讓 LLM 以「操作外部工具」的方式來使用代數運算系統(computer algebra system, CAS)。",
                 room: "R122",
-                speakers: [{name: "Sean Shih"}],
+                speakers: [{name: "Sean Shih", website: "https://www.linkedin.com/in/en-shih-158b39ba/"}],
                 start: "11:40",
                 end: "12:10",
               }}
@@ -123,7 +123,7 @@ const Page = () => {
                   "測資保護戰：探討專案型 Online Judge 之資安問題",
                 description: "為解決大量學生作業評測及讓學生能多次提交直到通過的需求，設計了自動化評測系統。系統架構採用 Jenkins 平台串連 Gitea，學生透過 git 提交作業觸發 Jenkins 自動評測並可查看 Terminal 輸出以診斷問題。此架構成功支援兩年課程評測，但隨之產生資安挑戰。學生曾利用程式執行權限探索 workspace 資料夾，將暗測測資輸出到 Terminal。面對此威脅，團隊實施 SSH remote worker 隔離服務，並開發「Sylinteri」工具將測試結果轉為 JSON 格式呈現，取代直接顯示 stdout 內容。最終引入 sandbox 機制，徹底解決測資被篡改或透過網路外洩的風險。",
                 room: "R115",
-                speakers: [{name: "Han-Xuan Huang"}],
+                speakers: [{name: "Han-Xuan Huang", website: "https://ntut-xuan.github.io"}],
                 start: "11:40",
                 end: "12:10",
               }}

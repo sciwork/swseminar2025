@@ -91,7 +91,7 @@ const Page = () => {
                   "在系上管理運算資源的那檔事",
                 description: "隨著運算需求的快速增長，如何有效管理並最大化運算資源的利用率成為一大挑戰。當節點數量增加，資源調度變得更加複雜，如何確保不同使用者的工作能夠順利執行，並讓整體運算效能發揮到極致？本次分享將介紹講者在交大資工建置運算服務時所遇到的實際問題，包括資源分配、使用者管理，以及服務可靠度等挑戰。講者也將分享解決這些問題的經驗，並帶領聽眾了解 Slurm 在高效能運算 (HPC) 環境中的角色，從基本概念到實際應用。無論你是對建置 HPC 叢集有興趣，或是想知道 Slurm 是怎麼運作的，本議程都將帶你掌握建置運算服務的概念與了解實務經驗",
                 room: "R115",
-                speakers: [{name: "Bo-Jun Huang"}],
+                speakers: [{name: "Bo-Jun Huang", website: "https://www.linkedin.com/in/bjhuang"}],
                 start: "11:00",
                 end: "11:30",
               }}
@@ -170,7 +170,7 @@ const Page = () => {
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
 			<TalkInfoCard
           	  talk={{
-          	    title: "Coding sprint: pydoc-tw, cpython, utensor",
+          	    title: "Coding sprint: pydoc-tw, cpython",
           	    description: "",
           	    room: "R115",
           	    start: "13:30",
@@ -208,7 +208,7 @@ const Page = () => {
           <TaskInfoList className="tw-order-2 tablet:tw-order-1">
 			<TalkInfoCard
           	  talk={{
-          	    title: "Coding sprint: pydoc-tw, cpython, utensor",
+          	    title: "Coding sprint: pydoc-tw, cpython",
           	    description: "",
           	    room: "R115",
           	    start: "15:40",
